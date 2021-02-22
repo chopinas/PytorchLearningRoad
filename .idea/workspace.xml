@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f2afdb6-ee01-4b66-8da6-c22a1f2a546e" name="Default Changelist" comment="simple demo">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataLoadingAndProcessing/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PytorchLearningRoad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytorchLearningRoad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+    <list default="true" id="6f2afdb6-ee01-4b66-8da6-c22a1f2a546e" name="Default Changelist" comment="对数据集进行加载，处理（有些bug未处理">
+      <change afterPath="$PROJECT_DIR$/test2_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +33,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data loading and processing/data/face" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\codeHub\PytorchLearningRoad\Data loading and processing\data\face" />
       <recent name="E:\codeHub\PytorchLearningRoad" />
+      <recent name="E:\codeHub\PytorchLearningRoad\Data loading and processing\data\face" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\codeHub\PytorchLearningRoad\Data loading and processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.test2_3">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pytorchProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,12 +106,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytorchLearningRoad" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\softwave\anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytorchLearningRoad" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\softwave\anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PytorchLearningRoad" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\softwave\anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.test" />
       <item itemvalue="Python.test1" />
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.test2_2" />
+      <item itemvalue="Python.test2_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test2_3" />
+        <item itemvalue="Python.test2_2" />
+        <item itemvalue="Python.test3" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test1" />
       </list>
@@ -158,7 +220,7 @@
       <workItem from="1613873460527" duration="721000" />
       <workItem from="1613874199569" duration="11024000" />
       <workItem from="1613916827614" duration="2158000" />
-      <workItem from="1613958325568" duration="510000" />
+      <workItem from="1613958325568" duration="8559000" />
     </task>
     <task id="LOCAL-00001" summary="simple demo">
       <created>1612925303461</created>
@@ -167,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612925303461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="对数据集进行加载，处理（有些bug未处理">
+      <created>1613959032433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613959032433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple demo" />
+    <MESSAGE value="对数据集进行加载，处理（有些bug未处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="对数据集进行加载，处理（有些bug未处理" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pytorchProject$text.coverage" NAME="text Coverage Results" MODIFIED="1612619350061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
